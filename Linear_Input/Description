@@ -1,0 +1,2 @@
+-Data is added as a 2-D matrix of dimensions:(Number of past days, Number of features)
+-Shows the highest accuracy of all networks tested
