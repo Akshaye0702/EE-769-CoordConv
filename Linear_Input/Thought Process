@@ -1,0 +1,7 @@
+The reason why we have two inputs is because of two reasons:
+  1)To avoid the vanishing gradient problem prevalent in long networks
+  2)In order to get assurance of the result given by our network
+We have seen that single output accuracy has been low for other networks of this kind, thus our aim was to have 2 outputs so that we could compare what the network thought was the right answer.
+
+If the network gave contradictory results, we could safely assume that the network was not confident and thus we should not make any bets on the stock. But if the network gave the same answer, maybe the network had identified whether the stock price would increase or decrease.
+In order to check our theory, we tallied the result and found that over 70% of the time, when the 2 outputs matched, the network gave the correct result. This increase the confidence in our network.
