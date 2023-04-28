@@ -1,0 +1,2 @@
+-This file uses the coord-cnn method developed by uberlabs to add coordinates to the input image, thereby allowing the network to find out which data is newer compared to the other.
+-We see little improvement in accuracy
